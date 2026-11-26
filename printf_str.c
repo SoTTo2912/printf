@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   printf_str.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sotto <sotto@student.42.fr>                +#+  +:+       +#+        */
+/*   By: vicarauj <vicarauj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/24 22:55:32 by sotto             #+#    #+#             */
-/*   Updated: 2026/11/24 22:56:34 by sotto            ###   ########.fr       */
+/*   Created: 2026/11/24 22:55:32 by vicarauj          #+#    #+#             */
+/*   Updated: 2026/11/25 09:52:41 by vicarauj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,15 @@
 
 int	printf_str(char *str)
 {
-    int	count;
+	int	count;
 
-    count = 0;
-    if (!str)
-        str = "(null)";
-    while (*str)
-    {
-        count += printf_char(*str);
-        str++;
-    }
-    return (count);
+	count = 0;
+	if (!str)
+		str = "(null)";
+	while (*str)
+	{
+		count += printf_char(*str);
+		str++;
+	}
+	return (count);
 }

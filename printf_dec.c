@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   printf_dec.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sotto <sotto@student.42.fr>                +#+  +:+       +#+        */
+/*   By: vicarauj <vicarauj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/24 22:53:32 by sotto             #+#    #+#             */
-/*   Updated: 2026/11/24 22:56:34 by sotto            ###   ########.fr       */
+/*   Created: 2026/11/24 22:53:32 by vicarauj          #+#    #+#             */
+/*   Updated: 2026/11/25 09:52:48 by vicarauj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	printf_dec(unsigned int nb)
 {
- 	int	count;
+	int	count;
 
 	count = 0;
 	if (nb > 9)

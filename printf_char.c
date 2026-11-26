@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   printf_char.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sotto <sotto@student.42.fr>                +#+  +:+       +#+        */
+/*   By: vicarauj <vicarauj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/24 22:52:41 by sotto             #+#    #+#             */
-/*   Updated: 2026/11/24 22:56:34 by sotto            ###   ########.fr       */
+/*   Created: 2026/11/25 09:43:07 by vicarauj          #+#    #+#             */
+/*   Updated: 2026/11/25 09:49:29 by vicarauj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,6 @@
 
 int	printf_char(int c)
 {
-    write(1, &c, 1);
-    return (1);
+	write(1, &c, 1);
+	return (1);
 }
